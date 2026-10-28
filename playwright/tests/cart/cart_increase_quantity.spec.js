@@ -1,3 +1,7 @@
+/**
+ * Description: Verify clicking increase changes product quantity to two.
+ * Expected result: The UI displays the expected result indicator.
+ */
 const { test, expect } = require('@playwright/test');
 
 test('cart increase quantity', async ({ page }) => {

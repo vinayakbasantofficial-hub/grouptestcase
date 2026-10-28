@@ -8,6 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
+/**
+ * Description: Verify an incorrect password shows an error without signing in.
+ * Expected result: The UI displays the expected result indicator.
+ */
 class AuthLoginInvalidPasswordTest {
     @Test
     void authLoginInvalidPassword() {

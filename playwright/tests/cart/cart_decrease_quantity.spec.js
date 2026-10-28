@@ -1,3 +1,7 @@
+/**
+ * Description: Verify decreasing a product quantity updates it to one.
+ * Expected result: The UI displays the expected result indicator.
+ */
 const { test, expect } = require('@playwright/test');
 
 test('cart decrease quantity', async ({ page }) => {

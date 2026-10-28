@@ -8,6 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
+/**
+ * Description: Verify an expired session requires the user to sign in again.
+ * Expected result: The UI displays the expected result indicator.
+ */
 class AuthRejectExpiredSessionTest {
     @Test
     void authRejectExpiredSession() {

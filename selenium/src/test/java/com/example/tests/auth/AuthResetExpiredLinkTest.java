@@ -8,6 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
+/**
+ * Description: Verify an expired password reset link cannot be used.
+ * Expected result: The UI displays the expected result indicator.
+ */
 class AuthResetExpiredLinkTest {
     @Test
     void authResetExpiredLink() {

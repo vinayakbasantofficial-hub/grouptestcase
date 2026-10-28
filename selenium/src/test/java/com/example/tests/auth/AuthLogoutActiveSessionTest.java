@@ -8,6 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
+/**
+ * Description: Verify logging out ends the authenticated session.
+ * Expected result: The UI displays the expected result indicator.
+ */
 class AuthLogoutActiveSessionTest {
     @Test
     void authLogoutActiveSession() {

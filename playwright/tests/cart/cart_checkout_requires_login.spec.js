@@ -1,3 +1,7 @@
+/**
+ * Description: Verify guests must sign in before protected checkout.
+ * Expected result: The UI displays the expected result indicator.
+ */
 const { test, expect } = require('@playwright/test');
 
 test('cart checkout requires login', async ({ page }) => {

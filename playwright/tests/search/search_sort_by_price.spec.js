@@ -1,3 +1,7 @@
+/**
+ * Description: Verify selecting price sorting displays the sorted results.
+ * Expected result: The UI displays the expected result indicator.
+ */
 const { test, expect } = require('@playwright/test');
 
 test('search sort by price', async ({ page }) => {

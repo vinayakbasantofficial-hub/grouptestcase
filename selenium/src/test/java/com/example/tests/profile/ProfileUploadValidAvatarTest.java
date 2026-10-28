@@ -8,6 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
+/**
+ * Description: Verify uploading a supported avatar displays a preview.
+ * Expected result: The UI displays the expected result indicator.
+ */
 class ProfileUploadValidAvatarTest {
     @Test
     void profileUploadValidAvatar() {

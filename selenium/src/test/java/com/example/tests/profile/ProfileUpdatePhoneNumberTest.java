@@ -8,6 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
+/**
+ * Description: Verify a valid phone number can be saved in the profile.
+ * Expected result: The UI displays the expected result indicator.
+ */
 class ProfileUpdatePhoneNumberTest {
     @Test
     void profileUpdatePhoneNumber() {

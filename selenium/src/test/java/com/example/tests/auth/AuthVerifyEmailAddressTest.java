@@ -8,6 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
+/**
+ * Description: Verify a valid verification token confirms the email address.
+ * Expected result: The UI displays the expected result indicator.
+ */
 class AuthVerifyEmailAddressTest {
     @Test
     void authVerifyEmailAddress() {

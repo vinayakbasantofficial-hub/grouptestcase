@@ -1,3 +1,7 @@
+/**
+ * Description: Verify category filtering updates visible results.
+ * Expected result: The UI displays the expected result indicator.
+ */
 const { test, expect } = require('@playwright/test');
 
 test('search filter by category', async ({ page }) => {

@@ -1,3 +1,7 @@
+/**
+ * Description: Verify an exact product query returns search results.
+ * Expected result: The UI displays the expected result indicator.
+ */
 const { test, expect } = require('@playwright/test');
 
 test('search exact product name', async ({ page }) => {

@@ -8,6 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
+/**
+ * Description: Verify an unauthenticated visitor cannot access a protected page.
+ * Expected result: The UI displays the expected result indicator.
+ */
 class AuthPreventUnauthenticatedAccessTest {
     @Test
     void authPreventUnauthenticatedAccess() {

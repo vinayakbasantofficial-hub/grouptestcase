@@ -1,3 +1,7 @@
+/**
+ * Description: Verify a declined bank card shows a payment failure and does not confirm the order.
+ * Expected result: The UI displays the expected result indicator.
+ */
 const { test, expect } = require('@playwright/test');
 
 test('payment declined card', async ({ page }) => {

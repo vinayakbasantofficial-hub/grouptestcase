@@ -1,3 +1,7 @@
+/**
+ * Description: Verify customers can choose wallet payment at checkout.
+ * Expected result: The UI displays the expected result indicator.
+ */
 const { test, expect } = require('@playwright/test');
 
 test('payment switch to wallet', async ({ page }) => {

@@ -1,3 +1,7 @@
+/**
+ * Description: Verify an expired card is rejected at checkout.
+ * Expected result: The UI displays the expected result indicator.
+ */
 const { test, expect } = require('@playwright/test');
 
 test('payment expired card', async ({ page }) => {
